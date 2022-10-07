@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Recogida de datos</h1>
+	<br>
+	<form action="ejer1HolaMundo" method="post">
+		Nombre<br>
+		<input type="text" name="nombre" value=""><br>
+		Apellidos<br>
+		<input type="text" name="apellidos" value=""><br>
+		Direccion<br>
+		<input type="textarea" name="direccion" value="">
+		<br><br>
+		Tipo de tarjeta<br>
+		<input type="textarea" name="nombre" value="">
+	</form>
+</body>
+</html>

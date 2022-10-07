@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Ejer03-GruposYPrioridades&apos;&#x0D;&#x0A;- Original project: &apos;Ejem04-PrioridadesYGrupos&apos;&#x0D;&#x0A;- Destination element: &apos;Ejer03-GruposYPrioridades&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Aplicacion.java&#x0D;&#x0A;     Hijo.java" description="Copy compilation units" destination="=Ejer03-GruposYPrioridades" element1="/src&lt;{Aplicacion.java" element2="/src&lt;{Hijo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1664956119494" units="2" version="1.0"/>
+</session>

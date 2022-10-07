@@ -1,0 +1,6 @@
+
+oct 04, 2022 10:49:49.892 NEW SESSION
+oct 04, 2022 10:49:49.892 [20504:15092:1004/104949.888:ERROR:device_event_log_impl.cc(214)] [10:49:49.888] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+oct 04, 2022 10:54:19.545 [8876:5100:1004/105419.544:ERROR:device_event_log_impl.cc(214)] [10:54:19.544] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+oct 04, 2022 10:55:17.460 [8876:13748:1004/105517.460:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+oct 04, 2022 13:49:34.121 [8876:5100:1004/134934.120:ERROR:interface_endpoint_client.cc(689)] Message 0 rejected by interface blink.mojom.WidgetHost

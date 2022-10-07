@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Recogida de datos</h1>
+<form action="ejer1HolaMundo" method="post">
+	<input type="radio" name="idioma" value="spain"> Español
+	<input type="radio" name="idioma" value="france"> Francés
+	<input type="radio" name="idioma" value="italy"> Italiano
+	<br>
+    <input type="submit" name="button1" value="Saludar" />
+</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Saludo
+<form action="ejer1HolaMundoB" method="post">
+	Mensaje<input type="text"><br>
+	Firma<input type="text">
+</form>
+</body>
+</html>
