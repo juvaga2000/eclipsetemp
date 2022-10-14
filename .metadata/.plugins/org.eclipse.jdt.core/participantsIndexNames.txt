@@ -3,3 +3,5 @@ C:\Users\vaqgalju\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\
 \EjerciciosT1\src\main\java
 C:\Users\vaqgalju\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\557632964.index
 \WebApp\src\main\java
+C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\557632964.index
+\WebApp\src\main\java

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="EjerciciosT1_2_Contexto">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <property name="context-root" value="EjerciciosT1_2_Contexto"/>
-        <property name="java-output-path" value="/EjerciciosT1_2_Contexto/build/classes"/>
-    </wb-module>
-</project-modules>

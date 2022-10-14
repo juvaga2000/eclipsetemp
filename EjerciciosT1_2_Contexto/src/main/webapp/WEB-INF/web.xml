@@ -25,13 +25,13 @@
   </context-param>
   <servlet>
     <description></description>
-    <display-name>Ejercicio2</display-name>
-    <servlet-name>Ejercicio2</servlet-name>
-    <servlet-class>Ejercicio2</servlet-class>
+    <display-name>Ejercicio2_anadir</display-name>
+    <servlet-name>Ejercicio2_anadir</servlet-name>
+    <servlet-class>Ejercicio2_anadir</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Ejercicio2</servlet-name>
-    <url-pattern>/Ejercicio2</url-pattern>
+    <servlet-name>Ejercicio2_anadir</servlet-name>
+    <url-pattern>/Ejercicio2_anadir</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -52,5 +52,25 @@
   <servlet-mapping>
     <servlet-name>Ejercicio1_2</servlet-name>
     <url-pattern>/Ejercicio1_2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2_mostrar</display-name>
+    <servlet-name>Ejercicio2_mostrar</servlet-name>
+    <servlet-class>Ejercicio2_mostrar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2_mostrar</servlet-name>
+    <url-pattern>/Ejercicio2_mostrar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio3</display-name>
+    <servlet-name>Ejercicio3</servlet-name>
+    <servlet-class>Ejercicio3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio3</servlet-name>
+    <url-pattern>/Ejercicio3</url-pattern>
   </servlet-mapping>
 </web-app>

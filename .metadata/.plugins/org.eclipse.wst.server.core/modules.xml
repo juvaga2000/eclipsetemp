@@ -3,6 +3,7 @@
   <module moduleId="org.eclipse.jst.jee.server:WebApp" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:WebAppDinamic" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo6" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Ejemplo7_Sesiones" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_2_Contexto" serverId="Tomcat v10.0 Server at localhost"/>
 </modules>
