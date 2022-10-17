@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="EjerciciosT1" path="/EjerciciosT1" reloadable="true" source="org.eclipse.jst.jee.server:EjerciciosT1"/><Context docBase="Ejemplo6" path="/Ejemplo6" reloadable="true" source="org.eclipse.jst.jee.server:Ejemplo6"/><Context docBase="EjerciciosT1_2_Contexto" path="/EjerciciosT1_2_Contexto" reloadable="true" source="org.eclipse.jst.jee.server:EjerciciosT1_2_Contexto"/><Context docBase="Ejemplo7_Sesiones" path="/Ejemplo7_Sesiones" reloadable="true" source="org.eclipse.jst.jee.server:Ejemplo7_Sesiones"/></Host>
+      <Context docBase="EjerciciosT1" path="/EjerciciosT1" reloadable="true" source="org.eclipse.jst.jee.server:EjerciciosT1"/><Context docBase="Ejemplo6" path="/Ejemplo6" reloadable="true" source="org.eclipse.jst.jee.server:Ejemplo6"/><Context docBase="EjerciciosT1_2_Contexto" path="/EjerciciosT1_2_Contexto" reloadable="true" source="org.eclipse.jst.jee.server:EjerciciosT1_2_Contexto"/><Context docBase="Ejemplo7_Sesiones" path="/Ejemplo7_Sesiones" reloadable="true" source="org.eclipse.jst.jee.server:Ejemplo7_Sesiones"/><Context docBase="Ejemplo8_Cookies" path="/Ejemplo8_Cookies" reloadable="true" source="org.eclipse.jst.jee.server:Ejemplo8_Cookies"/><Context docBase="EjerciciosT1_3_SesionesYCookies" path="/EjerciciosT1_3_SesionesYCookies" reloadable="true" source="org.eclipse.jst.jee.server:EjerciciosT1_3_SesionesYCookies"/></Host>
     </Engine>
   </Service>
 </Server>
