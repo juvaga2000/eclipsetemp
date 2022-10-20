@@ -1,7 +1,4 @@
-
-
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -9,7 +6,6 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Enumeration;
 
 /**
  * Servlet implementation class Ejercicio1
@@ -30,13 +26,12 @@ public class Ejercicio1 extends HttpServlet {
     	response.setContentType("text/html");
 		int carrito=0;
 		HttpSession sesion= request.getSession(true);
-		if(!sesion.isNew()) {
+
+		if(sesion.getAttribute("total")!=null) {
 			carrito= (int)sesion.getAttribute("total");
-		}else {
-			sesion.setAttribute("total", 0);
 		}
 		
-		if(request.getParameterValues("producto")!=null) {
+		if(request.getParameter("producto")!=null) {
 			switch(request.getParameter("producto")) {
 				case "A":
 					carrito+=3;
@@ -62,8 +57,8 @@ public class Ejercicio1 extends HttpServlet {
 			out.println("</head>");
 			out.println("<body>");
 			out.println("<h2>Tienda ASDF</h2>");
-			if(request.getParameterValues("producto")!=null) {
-				out.println(sesion.getAttribute("carrito"));
+			if(request.getParameter("ticket")!=null) {
+				out.println(sesion.getAttribute("total"));
 			}
 			out.println("<form method=\"get\" action=\"http://localhost:8080/EjerciciosT1_3_SesionesYCookies/Ejercicio1\">");
 				out.println("<input type=\"submit\" name =\"producto\" value=\"A\">");
@@ -71,10 +66,11 @@ public class Ejercicio1 extends HttpServlet {
 				out.println("<input type=\"submit\" name =\"producto\" value=\"C\">");
 				out.println("<input type=\"submit\" name =\"producto\" value=\"D\">");
 				out.println("<br>");
-				out.println("<input type=\"submit\" value=\"ticket\">");
+				out.println("<input type=\"submit\" name =\"ticket\" value=\"ticket\">");
 			out.println("</form>");
 			out.println("</body>");
 		out.println("</html>");
+		//response.getWriter().append(carrito);
 	}
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)

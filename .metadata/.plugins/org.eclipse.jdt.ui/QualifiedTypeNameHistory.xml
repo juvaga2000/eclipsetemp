@@ -3,16 +3,17 @@
     <fullyQualifiedTypeName name="ProcesoHijo"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="ejercicio2.Persona"/>
-    <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletConfig"/>
-    <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Persona"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Enumeration"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
     <fullyQualifiedTypeName name="Hijo"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.util.http.parser.Cookie"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.Cookie"/>
 </qualifiedTypeNameHistroy>
