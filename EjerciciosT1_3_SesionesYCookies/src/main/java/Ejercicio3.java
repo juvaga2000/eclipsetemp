@@ -5,6 +5,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 /**
@@ -25,6 +27,20 @@ public class Ejercicio3 extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HttpSession sesion= request.getSession(true);
+		if(sesion.getAttribute("visitas")==null) {
+			response.getWriter().append("Eres el primer visitante. Escribe un nombre por URL para continuar(?nombre=juan)");
+			sesion.setAttribute("visitas", "");
+		}else {
+			System.out.println("dasd");
+			sesion.setAttribute("visitas", sesion.getAttribute("visitas")+"\n"+request.getParameter("nombre"));
+			response.getWriter().append("Hola ").append(request.getParameter("nombre")).append("\n");
+			response.getWriter().append("Contigo hoy me han visitado: \n");
+			response.getWriter().append((CharSequence) sesion.getAttribute("visitas"));
+		}
+		
+		
+		/*
 		Cookie[]cookies=request.getCookies();
 		if(request.getParameter("nombre")!=null) {
 			String cookieName;
@@ -47,7 +63,7 @@ public class Ejercicio3 extends HttpServlet {
 				response.getWriter().append(cookie.getValue()).append("\n");
 			}
 		}
-		
+		*/
 	}
 
 	/**

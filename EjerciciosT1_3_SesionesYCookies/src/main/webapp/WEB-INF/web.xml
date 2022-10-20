@@ -49,4 +49,54 @@
     <servlet-name>Ejercicio3</servlet-name>
     <url-pattern>/Ejercicio3</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Bienvenido</display-name>
+    <servlet-name>Bienvenido</servlet-name>
+    <servlet-class>Bienvenido</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Bienvenido</servlet-name>
+    <url-pattern>/Bienvenido</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio4_Registrar</display-name>
+    <servlet-name>Ejercicio4_Registrar</servlet-name>
+    <servlet-class>Ejercicio4_Registrar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio4_Registrar</servlet-name>
+    <url-pattern>/Ejercicio4_Registrar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Tienda</display-name>
+    <servlet-name>Tienda</servlet-name>
+    <servlet-class>Tienda</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Tienda</servlet-name>
+    <url-pattern>/Tienda</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Menu</display-name>
+    <servlet-name>Menu</servlet-name>
+    <servlet-class>Menu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Menu</servlet-name>
+    <url-pattern>/Menu</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Listado</display-name>
+    <servlet-name>Listado</servlet-name>
+    <servlet-class>Listado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Listado</servlet-name>
+    <url-pattern>/Listado</url-pattern>
+  </servlet-mapping>
 </web-app>
