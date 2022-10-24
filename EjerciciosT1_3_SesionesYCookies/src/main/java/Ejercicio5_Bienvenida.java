@@ -1,23 +1,24 @@
+
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Servlet implementation class Bienvenido
+ * Servlet implementation class Ejercicio5_Bienvenida
  */
-public class Menu extends HttpServlet {
+public class Ejercicio5_Bienvenida extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Menu() {
+    public Ejercicio5_Bienvenida() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -26,23 +27,25 @@ public class Menu extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Cookie[]cookies=request.getCookies();
+		if(cookies==null) {
+			Cookie c= new Cookie("libro0", request.getParameter("libro"));
+			response.addCookie(c);
+		}else {
+			String name="libro"+cookies.length;
+			Cookie c = new Cookie(name, request.getParameter("libro"));
+			response.addCookie(c);
+		}
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		HttpSession sesion= request.getSession(true);
-		if(sesion.getAttribute("carrito")==null) {
-			sesion.setAttribute("carrito", request.getAttribute("producto")+"\n");
-		}else {
-			sesion.setAttribute("carrito", (String) sesion.getAttribute("producto")+request.getAttribute("producto")+"\n");
-		}
-		sesion.setAttribute(getServletInfo(), sesion);
 		out.print("<html>\r\n"
 				+ "<head></head>\r\n"
 				+ "<body>\r\n"
-				+ "	<h1>Carniceria Panizo</h1>\r\n"
-				+ "<a href=\"Listado\">Ver carrito</a>"
-				+ "<a href=\"Tienda\">Seguir Comprando</a>"
+				+ "	<h1>Bienvenido a web libreria. Usted seleccionó "+request.getParameter("libro")+"</h1>\r\n"
+				+ "<a href=\"Ejercicio5_Portada\">Seguir comprando</a>"
+				+ "<a href=\"Ejercicio5_Carrito\">Ver carrito</a>"
 				+ "	</body>\r\n"
-				+ "	</html>");
+				+ "	</html>");	
 	}
 
 	/**
@@ -50,7 +53,7 @@ public class Menu extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		doGet(request, response);
 	}
 
 }

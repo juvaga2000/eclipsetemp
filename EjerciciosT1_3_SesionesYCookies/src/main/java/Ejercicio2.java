@@ -26,15 +26,20 @@ public class Ejercicio2 extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doPost(request, response);
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Cookie[]cookies=request.getCookies();
+		if(request.getParameter("nombre")!=null) {
+			Cookie c= new Cookie("nombre", request.getParameter("nombre"));
+			c.setMaxAge(100);
+			response.addCookie(c);
+		}
+		doGet(request, response);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		Cookie[]cookies=request.getCookies();
 		
@@ -44,18 +49,17 @@ public class Ejercicio2 extends HttpServlet {
 		out.println("<head>");
 		out.println("</head>");
 		out.println("<body>");
-		if(cookies!=null) {
-			if(cookies[0].getDomain()!="localhost") {
+		System.out.println("AAAAAAAAAAAAA");
+			if(cookies[1].getDomain()!="localhost") {
 				out.println("<h1>Acceso denegado<h1>");
 			}
-		}else {
+			if(cookies!=null){
 			out.println("<h2>Salúdame</h2>");
-			if(cookies==null) {
+			if(cookies[1]!=null) {
 				out.println("Bienvenido a mi web");
-			}else {
-				out.println("Me alegro de verte " +cookies[0].getValue());
+				out.println("Me alegro de verte " +cookies[1].getValue());
 			}
-			out.println("<form method=\"post\" action=\"http://localhost:8080/EjerciciosT1_3_SesionesYCookies/Ejercicio2B\">");
+			out.println("<form method=\"post\" action=\"Ejercicio2\">");
 			out.println("Nombre: ");
 			out.println("<input type=\"text\" name=\"nombre\">");
 			out.println("<br>");

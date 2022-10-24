@@ -63,14 +63,12 @@ public class Ejercicio4_Registrar extends HttpServlet {
 			if(userIntroducido.equals(user) && passIntroducido.equals(pass)) {
 				sesion.setAttribute("user",user);
 				sesion.setAttribute("pass",pass);
-				response.sendRedirect("Bienvenido");
+				response.sendRedirect("Ejercicio4_Bienvenido");
 			}else {
 				if(sesion.getAttribute("intentos")==null){
-					System.out.println("Nuevo");
 					sesion.setAttribute("intentos", "0");
 					intentos=1;
 				}else {
-					System.out.println("Viejo");
 					intentos=Integer.parseInt((String) sesion.getAttribute("intentos"));
 					intentos++;
 					sesion.setAttribute("intentos", Integer.toString(intentos));
@@ -78,6 +76,7 @@ public class Ejercicio4_Registrar extends HttpServlet {
 			}
 			
 				if(sesion.getAttribute("intentos").equals("3")) {
+					sesion.invalidate();
 					out.print("<html>\r\n"
 							+ "<head></head>\r\n"
 							+ "<body>\r\n"

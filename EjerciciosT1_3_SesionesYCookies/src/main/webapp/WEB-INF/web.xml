@@ -51,13 +51,13 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>Bienvenido</display-name>
-    <servlet-name>Bienvenido</servlet-name>
-    <servlet-class>Bienvenido</servlet-class>
+    <display-name>Ejercicio4_Bienvenido</display-name>
+    <servlet-name>Ejercicio4_Bienvenido</servlet-name>
+    <servlet-class>Ejercicio4_Bienvenido</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Bienvenido</servlet-name>
-    <url-pattern>/Bienvenido</url-pattern>
+    <servlet-name>Ejercicio4_Bienvenido</servlet-name>
+    <url-pattern>/Ejercicio4_Bienvenido</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -71,32 +71,62 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>Tienda</display-name>
-    <servlet-name>Tienda</servlet-name>
-    <servlet-class>Tienda</servlet-class>
+    <display-name>Ejercicio4_Tienda</display-name>
+    <servlet-name>Ejercicio4_Tienda</servlet-name>
+    <servlet-class>Ejercicio4_Tienda</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Tienda</servlet-name>
-    <url-pattern>/Tienda</url-pattern>
+    <servlet-name>Ejercicio4_Tienda</servlet-name>
+    <url-pattern>/Ejercicio4_Tienda</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>Menu</display-name>
-    <servlet-name>Menu</servlet-name>
-    <servlet-class>Menu</servlet-class>
+    <display-name>Ejercicio4_Menu</display-name>
+    <servlet-name>Ejercicio4_Menu</servlet-name>
+    <servlet-class>Ejercicio4_Menu</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Menu</servlet-name>
-    <url-pattern>/Menu</url-pattern>
+    <servlet-name>Ejercicio4_Menu</servlet-name>
+    <url-pattern>/Ejercicio4_Menu</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>Listado</display-name>
-    <servlet-name>Listado</servlet-name>
-    <servlet-class>Listado</servlet-class>
+    <display-name>Ejercicio4_Listado</display-name>
+    <servlet-name>Ejercicio4_Listado</servlet-name>
+    <servlet-class>Ejercicio4_Listado</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Listado</servlet-name>
-    <url-pattern>/Listado</url-pattern>
+    <servlet-name>Ejercicio4_Listado</servlet-name>
+    <url-pattern>/Ejercicio4_Listado</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio5_Portada</display-name>
+    <servlet-name>Ejercicio5_Portada</servlet-name>
+    <servlet-class>Ejercicio5_Portada</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio5_Portada</servlet-name>
+    <url-pattern>/Ejercicio5_Portada</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio5_Bienvenida</display-name>
+    <servlet-name>Ejercicio5_Bienvenida</servlet-name>
+    <servlet-class>Ejercicio5_Bienvenida</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio5_Bienvenida</servlet-name>
+    <url-pattern>/Ejercicio5_Bienvenida</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio5_Carrito</display-name>
+    <servlet-name>Ejercicio5_Carrito</servlet-name>
+    <servlet-class>Ejercicio5_Carrito</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio5_Carrito</servlet-name>
+    <url-pattern>/Ejercicio5_Carrito</url-pattern>
   </servlet-mapping>
 </web-app>
