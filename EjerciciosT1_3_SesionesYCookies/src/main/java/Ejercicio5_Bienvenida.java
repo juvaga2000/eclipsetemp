@@ -29,12 +29,12 @@ public class Ejercicio5_Bienvenida extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Cookie[]cookies=request.getCookies();
 		if(cookies==null) {
-			Cookie c= new Cookie("libro0", request.getParameter("libro"));
-			response.addCookie(c);
+			response.addCookie(new Cookie("C", "0"));
+			response.addCookie(new Cookie("Java", "0"));
+			response.addCookie(new Cookie("HTML", "0"));
+			response.addCookie(new Cookie("C#", "0"));
 		}else {
-			String name="libro"+cookies.length;
-			Cookie c = new Cookie(name, request.getParameter("libro"));
-			response.addCookie(c);
+			
 		}
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();

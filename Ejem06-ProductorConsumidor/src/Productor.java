@@ -12,13 +12,15 @@ public class Productor extends Thread {
 	public void run() {
 		// TODO Auto-generated method stub
 		super.run();
-		
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		for(int i=0;i<2;i++) {
+			try {
+				Thread.sleep(200);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			dato.setColocado(true);
 		}
-		dato.setColocado(true);
+		
 	}
 
 }

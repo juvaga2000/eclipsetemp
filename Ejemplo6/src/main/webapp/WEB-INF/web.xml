@@ -20,7 +20,17 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <context-param>
-  	<param-name>param</param-name>
-  	<param-value>Ejemplo parámetro contexto</param-value>
+    <param-name>param</param-name>
+    <param-value>Ejemplo parámetro contexto</param-value>
   </context-param>
+  <servlet>
+    <description></description>
+    <display-name>ServletDespachador</display-name>
+    <servlet-name>ServletDespachador</servlet-name>
+    <servlet-class>ServletDespachador</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDespachador</servlet-name>
+    <url-pattern>/ServletDespachador</url-pattern>
+  </servlet-mapping>
 </web-app>

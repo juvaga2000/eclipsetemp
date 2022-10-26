@@ -1,16 +1,19 @@
 
 public class Dato {
-	private boolean colocado;
+	
+	private boolean colocado=false;
 
 	public synchronized boolean isColocado() {
-		if(!colocado)
-			try {
-				this.wait();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			while(!colocado) {
+				try {
+					this.wait();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
-		return colocado;
+			colocado=false;
+			return true;
 	}
 
 	public synchronized void setColocado(boolean colocado) {
