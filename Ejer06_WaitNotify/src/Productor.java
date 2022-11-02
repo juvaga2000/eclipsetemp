@@ -1,36 +1,34 @@
 
-public class Productor extends Thread {
 
+import java.util.Scanner;
+
+public class Productor extends Thread{
+
+	private Dato dato;
+	private ThreadGroup grupoConsumidores;
 	
-	private String palabra;
-	public Productor(String palabra) {
-		// TODO Auto-generated constructor stub
-		this.palabra = palabra;
+	public Productor(Dato dato, ThreadGroup grupoConsumidores) {
+		super();
+		this.dato = dato;
+		this.grupoConsumidores = grupoConsumidores; 
 	}
 	
-	
-
-	public String getPalabra() {
-		return palabra;
-	}
-
-
-
-	public void setPalabra(String palabra) {
-		this.palabra = palabra;
-	}
-
-
-
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		super.run();
+
+		Scanner sc = new Scanner(System.in);
+		String palabra = "";
 		
-		synchronized (palabra) {
-			palabra.notify();
+		do {
+			System.out.println("Introduce una palabra : ");
+			palabra = sc.next();
+			dato.setPalabra(palabra);
+			
+		} while (!palabra.equalsIgnoreCase("fin"));
+		synchronized (dato) {
+			dato.notifyAll();	
 		}
 		
 	}
-
 }

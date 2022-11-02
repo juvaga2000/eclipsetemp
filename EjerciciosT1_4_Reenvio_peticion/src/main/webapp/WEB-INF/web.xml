@@ -49,4 +49,44 @@
     <servlet-name>ServletError</servlet-name>
     <url-pattern>/ServletError</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletTablas2</display-name>
+    <servlet-name>ServletTablas2</servlet-name>
+    <servlet-class>ServletTablas2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletTablas2</servlet-name>
+    <url-pattern>/ServletTablas2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletDespachador2</display-name>
+    <servlet-name>ServletDespachador2</servlet-name>
+    <servlet-class>ServletDespachador2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDespachador2</servlet-name>
+    <url-pattern>/ServletDespachador2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletError2</display-name>
+    <servlet-name>ServletError2</servlet-name>
+    <servlet-class>ServletError2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletError2</servlet-name>
+    <url-pattern>/ServletError2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletError3</display-name>
+    <servlet-name>ServletError3</servlet-name>
+    <servlet-class>ServletError3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletError3</servlet-name>
+    <url-pattern>/ServletError3</url-pattern>
+  </servlet-mapping>
 </web-app>
