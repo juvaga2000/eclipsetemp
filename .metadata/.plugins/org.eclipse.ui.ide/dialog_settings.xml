@@ -15,6 +15,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\vaqgalju\eclipsetemp\Ejer07_Wait_Notify\Ejer07_Wait_Notify"/>
+			<item value="C:\Users\vaqgalju\eclipsetemp\Ejer07_Wait_Notify"/>
 			<item value="C:\Users\vaqgalju\eclipse-workspace\Ejer03-GruposYPrioridades_Juan_Vaquero"/>
 		</list>
 	</section>

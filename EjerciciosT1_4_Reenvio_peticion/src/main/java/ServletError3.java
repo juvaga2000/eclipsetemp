@@ -45,7 +45,7 @@ public class ServletError3 extends HttpServlet {
 				+ "<br>"
 				+ "<p style='color:red'>"+request.getAttribute("mensajeAtributo")+"</p>"
 				+ "<br>"
-				+ "<a href='index2.html'>Volver</a>"
+				+ "<a href='index3b.html'>Volver</a>"
 				+ "    </body>\r\n"
 				+ "</html>");
 	}

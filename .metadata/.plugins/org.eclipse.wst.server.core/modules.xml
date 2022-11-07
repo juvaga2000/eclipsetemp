@@ -2,7 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:WebApp" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo9_Dispatcher" serverId="Tomcat v10.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_4_Reenvio_peticion" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_4_Reenvio_peticion" serverId="Tomcat v10.0 Server at localhost (3)"/>
   <module moduleId="org.eclipse.jst.jee.server:WebAppDinamic" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo10" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo6" serverId="Tomcat v10.0 Server at localhost"/>

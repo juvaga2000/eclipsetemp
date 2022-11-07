@@ -1,0 +1,9 @@
+Cada 3 segundos (aproximado, simplemente con un Thread.sleep(3000), 
+se van a generar 5 números aleatorios , una vez generados despertaremos 
+cinco procesos que cogerán cada uno de esos números aleatorios mostrando 
+por pantalla qué número han cogido (lógicamente no podrán coger el mismo). 
+Optimiza la aplicación para que no haya procesos que estén ociosos con 
+tiempo de CPU. El proceso padre cuando finalice de generar los cinco 
+números aleatorios mostrará un string por consola informando de que se han
+ generado. Finalizar la aplicación después de haber generado tres veces 
+ cinco números aleatorios.

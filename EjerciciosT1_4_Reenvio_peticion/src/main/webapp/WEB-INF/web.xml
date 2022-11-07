@@ -89,4 +89,24 @@
     <servlet-name>ServletError3</servlet-name>
     <url-pattern>/ServletError3</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletDespachador3</display-name>
+    <servlet-name>ServletDespachador3</servlet-name>
+    <servlet-class>ServletDespachador3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDespachador3</servlet-name>
+    <url-pattern>/ServletDespachador3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletEjercicio3</display-name>
+    <servlet-name>ServletEjercicio3</servlet-name>
+    <servlet-class>ServletEjercicio3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletEjercicio3</servlet-name>
+    <url-pattern>/ServletEjercicio3</url-pattern>
+  </servlet-mapping>
 </web-app>
