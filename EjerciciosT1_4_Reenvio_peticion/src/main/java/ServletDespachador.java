@@ -32,13 +32,14 @@ public class ServletDespachador extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String page;
 		if(request.getParameter("cmpclave").equals("admin")) {
-			RequestDispatcher dispatcher= request.getRequestDispatcher("ServletBienvenida");
-			dispatcher.forward(request, response);
+			page="ServletBienvenida";
 		}else {
-			RequestDispatcher dispatcher= request.getRequestDispatcher("ServletError");
-			dispatcher.forward(request, response);
+			page="ServletError";
 		}
+		RequestDispatcher dispatcher= request.getRequestDispatcher(page);
+		dispatcher.forward(request, response);
 	}
 
 }

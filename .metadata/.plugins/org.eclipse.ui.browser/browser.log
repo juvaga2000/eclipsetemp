@@ -40,3 +40,7 @@ nov 07, 2022 13:05:35.12 [12964:13236:1107/130535.011:ERROR:device_event_log_imp
 nov 07, 2022 13:06:32.03 [12964:3744:1107/130632.002:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 nov 07, 2022 13:21:20.686 [2524:7256:1107/132120.685:ERROR:device_event_log_impl.cc(215)] [13:21:20.685] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
 nov 07, 2022 13:22:18.618 [2524:8900:1107/132218.617:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+nov 07, 2022 13:53:49.263 NEW SESSION
+nov 07, 2022 13:53:49.264 [2608:2236:1107/135349.261:ERROR:device_event_log_impl.cc(215)] [13:53:49.261] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+nov 07, 2022 13:54:47.193 [2608:1964:1107/135447.192:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

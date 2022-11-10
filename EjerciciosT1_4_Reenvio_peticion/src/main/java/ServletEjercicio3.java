@@ -45,7 +45,7 @@ public class ServletEjercicio3 extends HttpServlet {
 				+ "</head>\r\n"
 				+ "<body>\r\n"
 				+ "<h1>Has tecleado: "+request.getParameter("text")+"</h1><br>"
-				+ "<h3>Has delegado el procesamiento de la peticion al servlet"+request.getServletPath()+"</h3>"
+				+ "<h3>Has delegado el procesamiento de la peticion al servlet: "+request.getServletPath()+"</h3>"
 				+ "</body>\r\n"
 				+ "</html>");
 	}

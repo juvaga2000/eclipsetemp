@@ -29,4 +29,7 @@
     <servlet-name>ServletDespachador3</servlet-name>
     <url-pattern>/ServletDespachador3</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>ListenerContext</listener-class>
+  </listener>
 </web-app>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <listener>
+    <listener-class>ListenerContext</listener-class>
+  </listener>
+  <display-name>Ejemplo10_ListenersEventos</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>parametro</param-name>
+    <param-value>UwU</param-value>
+  </context-param>
+  <listener>
+    <listener-class>ListenerSesion</listener-class>
+  </listener>
+  <servlet>
+    <description></description>
+    <display-name>ServletSesion</display-name>
+    <servlet-name>ServletSesion</servlet-name>
+    <servlet-class>ServletSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletSesion</servlet-name>
+    <url-pattern>/ServletSesion</url-pattern>
+  </servlet-mapping>
+</web-app>

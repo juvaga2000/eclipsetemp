@@ -39,7 +39,6 @@ public class ServletDespachador2 extends HttpServlet {
 			RequestDispatcher dispatcher= request.getRequestDispatcher("ServletError2");
 			String mensaje = "No has elegido ninguna tabla";
 			request.setAttribute("mensajeAtributo", mensaje);
-
 			dispatcher.forward(request, response);
 		}
 	}
