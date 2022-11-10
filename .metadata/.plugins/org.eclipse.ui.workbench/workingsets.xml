@@ -16,8 +16,9 @@
 <item elementID="=EjerciciosT1_4_Reenvio_peticion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejemplo9_Dispatcher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejemplo8_Cookies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo10_ListenersEventos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Ejemplo10_ListenersEventos" type="4"/>
 <item elementID="=EjerciciosT1_6_Eventos_Y_Filtros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Ejemplo11_Filtros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667982674358_8" label="1EV" name="1EV">
 <item elementID="=Ejer04_MatandoProcesos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

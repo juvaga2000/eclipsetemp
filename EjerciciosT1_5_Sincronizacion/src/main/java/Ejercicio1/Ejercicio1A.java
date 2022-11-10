@@ -27,15 +27,17 @@ public class Ejercicio1A extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		if(request.getParameter("num")!=null) {
+
+			int n=Integer.parseInt(request.getParameter("num"));
+			//getServletContext().setAttribute("numero", n);
+			
 			try {
+				Thread.sleep(4000);
 				synchronized (lock) {
-					int n=Integer.parseInt(request.getParameter("num"));
 					getServletContext().setAttribute("numero", n);
-					Thread.sleep(4000);
-					wait();
+					RequestDispatcher dispatcher= request.getRequestDispatcher("Ejercicio1B");
+					dispatcher.forward(request, response);
 				}
-				RequestDispatcher dispatcher= request.getRequestDispatcher("Ejercicio1B");
-				dispatcher.forward(request, response);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
