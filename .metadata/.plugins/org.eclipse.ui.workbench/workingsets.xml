@@ -45,6 +45,7 @@
 <item elementID="=Ejer07_Ruben" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejer07_WaitNotify2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejer07_WaitNotifyB" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BancoCorreccion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663586753355_2" label="Window Working Set" name="Aggregate for window 1663586753354"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664962430164_6" label="Multiple Working Sets" name="Aggregate:1Eva:Uwu:">
