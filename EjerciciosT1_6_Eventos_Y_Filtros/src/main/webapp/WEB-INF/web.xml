@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
   <display-name>EjerciciosT1_6_Eventos_Y_Filtros</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -22,4 +22,43 @@
   <listener>
     <listener-class>Ejercicio1Listener</listener-class>
   </listener>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2</display-name>
+    <servlet-name>Ejercicio2</servlet-name>
+    <servlet-class>Ejercicio2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2</servlet-name>
+    <url-pattern>/Ejercicio2</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>Ejercicio2Filtro</display-name>
+    <filter-name>Ejercicio2Filtro</filter-name>
+    <filter-class>Ejercicio2Filtro</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Ejercicio2Filtro</filter-name>
+    <url-pattern>/Ejercicio2Filtro</url-pattern>
+  </filter-mapping>
+    <servlet>
+    <description></description>
+    <display-name>Ejercicio2B</display-name>
+    <servlet-name>Ejercicio2B</servlet-name>
+    <servlet-class>Ejercicio2B</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2B</servlet-name>
+    <url-pattern>/Ejercicio2B</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>Ejercicio2C</display-name>
+    <servlet-name>Ejercicio2C</servlet-name>
+    <servlet-class>Ejercicio2C</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2C</servlet-name>
+    <url-pattern>/Ejercicio2C</url-pattern>
+  </servlet-mapping>
 </web-app>

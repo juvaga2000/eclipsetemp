@@ -1,0 +1,3 @@
+Debemos simular un comedor social en el que asisten 100 personas. Cuando el cocinero pone un plato en la mesa con comida se avisa y el primero que lo coge come y se va del comedor. Tener en cuenta que aproximadamente coloca un plato cada 100 milisegundos, cuando han comido todos el cocinero descansará mostrando un mensaje diciendo “Hasta otro día”.
+En una segunda versión el cocinero no esperará 100milisegundos, se optimizarán los tiempos de tal forma que el 
+cocinero esperará a que coma un cliente y éste le dirá que ya ha comido, colocando el cocinero un nuevo plato.

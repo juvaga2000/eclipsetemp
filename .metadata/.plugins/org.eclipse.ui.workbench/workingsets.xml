@@ -3,50 +3,8 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663586746698_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663586746709_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664962378435_5" label="Uwu" name="Uwu"/>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667982562130_6" label="AD" name="AD">
-<item elementID="=WebApp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=EjerciciosT1_3_SesionesYCookies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=EjerciciosT1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Prueba" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo7_Sesiones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=WebAppDinamic" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=EjerciciosT1_5_Sincronizacion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
-<item elementID="=EjerciciosT1_2_Contexto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=EjerciciosT1_4_Reenvio_peticion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo9_Dispatcher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo8_Cookies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Ejemplo10_ListenersEventos" type="4"/>
-<item elementID="=EjerciciosT1_6_Eventos_Y_Filtros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo11_Filtros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667982674358_8" label="1EV" name="1EV">
-<item elementID="=Ejer04_MatandoProcesos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem06-ProductorConsumidor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer06_WaitNotify" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer01B_ThreadFor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer08-ProductorConsumidor-Profesor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem02_Runnable" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Contador5Procesos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer03_GruposYPrioridades_Entrega_Juan_Vaquero" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer9_ProdcutorConsumidorProfesor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem03-CompratirDatos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem06B-ProductorConsumidor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem04-PrioridadesYGrupos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer01_RunnableFor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem05-MatandoProcesos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo6" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem01_HolaMundo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer05_MatandoProcesosRunnable" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ProfesorB" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejemplo10" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejem07-DemoniosYAtomicInteger" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer07_Wait_Notify" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer07_Ruben" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer07_WaitNotify2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Ejer07_WaitNotifyB" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=BancoCorreccion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667982562130_6" label="AD" name="AD"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667982674358_8" label="1EV" name="1EV"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663586753355_2" label="Window Working Set" name="Aggregate for window 1663586753354"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664962430164_6" label="Multiple Working Sets" name="Aggregate:1Eva:Uwu:">
 <workingSet IMemento.internal.id="Uwu"/>

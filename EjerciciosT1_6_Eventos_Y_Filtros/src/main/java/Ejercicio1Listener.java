@@ -31,9 +31,9 @@ public class Ejercicio1Listener implements ServletContextListener {
     	
     	HashMap<String,String> tareas= (HashMap) sce.getServletContext().getAttribute("notificaciones");
     	try {
-    		ObjectInputStream ois = new ObjectInputStream (
-    		new FileInputStream("C:\\Users\\vaqgalju\\Desktop\\listener.dat"));
+    		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:\\Users\\vaqgalju\\Desktop\\listener.dat"));
 			tareas = (HashMap) ois.readObject();
+			sce.getServletContext().setAttribute("notificaciones", tareas);
 			ois.close();
 			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
@@ -51,9 +51,8 @@ public class Ejercicio1Listener implements ServletContextListener {
     public void contextDestroyed(ServletContextEvent sce)  {
     	HashMap<String,String> tareas= (HashMap) sce.getServletContext().getAttribute("notificaciones");
     	try {
-    	ObjectOutputStream oos = new ObjectOutputStream (
-    	new FileOutputStream("C:\\Users\\vaqgalju\\Desktop\\listener.dat"));
-    	oos.writeObject(tareas);
+    		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:\\Users\\vaqgalju\\Desktop\\listener.dat"));
+    		oos.writeObject(tareas);
 			oos.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

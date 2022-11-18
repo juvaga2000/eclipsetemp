@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EjerT1_7_App_Eleccion_Delegado">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="EjerT1_7_App_Eleccion_Delegado"/>
+        <property name="java-output-path" value="/EjerT1_7_App_Eleccion_Delegado/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -3,18 +3,11 @@
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-			<item value="org.eclipse.jst.ejb.ui"/>
-			<item value="org.eclipse.buildship.ui.creationwizards"/>
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jst.j2ee.internal"/>
 			<item value="org.eclipse.jpt.jaxb"/>
-			<item value="org.eclipse.jpt.jpa"/>
-			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.pde.PDE"/>
-			<item value="org.eclipse.wst.web.ui"/>
-			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
 	<section name="ResourceNavigator">
@@ -27,6 +20,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\vaqgalju\eclipsetemp\Ejem07-DemoniosYAtomicInteger"/>
+			<item value="C:\Users\vaqgalju\Desktop\Ejer09-ProduConsum-Banco"/>
+			<item value="C:\Users\vaqgalju\eclipsetemp\EjerciciosT1_6_Eventos_Y_Filtros"/>
+			<item value="C:\Users\vaqgalju\eclipsetemp\AD_EJER(V)_Sincronizacion_Juan_Vaquero\EjerciciosT1_5_Sincronizacion"/>
 			<item value="C:\Users\vaqgalju\eclipsetemp\BancoB"/>
 			<item value="C:\Users\vaqgalju\eclipsetemp\Ejer08-ProductorConsumidor-Profesor"/>
 			<item value="C:\Users\vaqgalju\Downloads\ProfesorB"/>
