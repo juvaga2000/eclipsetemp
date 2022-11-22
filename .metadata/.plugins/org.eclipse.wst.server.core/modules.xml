@@ -17,5 +17,6 @@
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo10" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo6" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_2_Contexto" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Ejercicio_7_Recogida_de_datos" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo8_Cookies" serverId="Tomcat v10.0 Server at localhost"/>
 </modules>

@@ -9,6 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import a.Votacion;
 
 /**
  * Servlet implementation class ServletVotacion
@@ -60,6 +61,7 @@ public class ServletVotacion extends HttpServlet {
 		}
 		getServletContext().setAttribute("votosContext", votos);
 		RequestDispatcher dispatcher= request.getRequestDispatcher("Resultados.jsp");
+		System.out.println(getServletContext().getAttribute("votosContext"));
 		dispatcher.forward(request, response);
 	}
 

@@ -1,7 +1,9 @@
 INDEX VERSION 1.131
-C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3534308076.index
+C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3847362540.index
+\Ejercicio_7_Recogida_de_datos\src\main\java
+C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3940811212.index
 \EjemploJSP\src\main\java
 C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2961261688.index
 \EjerT1_7_App_Eleccion_Delegado\src\main\java
-C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3940811212.index
+C:\Users\vaqgalju\eclipsetemp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3534308076.index
 \EjemploJSP\src\main\java
