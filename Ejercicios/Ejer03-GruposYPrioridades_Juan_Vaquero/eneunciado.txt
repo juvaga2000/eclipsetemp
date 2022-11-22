@@ -1,0 +1,3 @@
+Pedir al usuario numero de procesos a crear, contamos sincronizadamente entrew todos ellos, teniendoen cuenta que el mínimo
+número de procesos creado será 2, y el primero de ellos estará en un único grupo y con prioriodad mínima. El resto de procesos
+tendrá prio máxima en otro grupo. Analizar si funciona bien la prioridad

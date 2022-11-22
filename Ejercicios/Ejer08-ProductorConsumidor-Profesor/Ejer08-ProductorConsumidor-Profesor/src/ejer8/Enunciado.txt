@@ -1,0 +1,2 @@
+	Un profesor de cuyo nombre no quiero acordarme quiere aprobar a todos sus alumnos. Pero de 20 alumnos, sólo 10 podrán tener el aprobado. El profesor cada 20 milisegundos entregará en secretaría un aprobado y los alumnos por concurrencia competitiva irán cogiendo cada aprobado. Cada vez que un alumno haya cogido el aprobado mostrará: “Soy el alumnox y he aprobado”. Los que no hayan aprobado mostrarán un mensaje “Soy el alumnoy y no he aprobado”.
+Solución deseable realizada con métodos get/set sincronizados, contará aunque menos otras soluciones.

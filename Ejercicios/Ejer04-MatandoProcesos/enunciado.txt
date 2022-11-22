@@ -1,0 +1,6 @@
+Creamos 5 procesos, con un contador común (que llegará hasta 10000). 
+Cada proceso incrementará el contador una unidad y
+ posteriormente dormirá 10 milisegundos. El proceso padre, después de 200 milisegundos,
+  matará a todos los hijos que  automáticamente dejarán de incrementar el contador
+   y mostrar el número en el que se llegan. Hacerlo con métodos get y set 
+ sincronizados.
