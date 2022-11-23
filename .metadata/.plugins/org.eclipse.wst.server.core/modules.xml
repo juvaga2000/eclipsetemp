@@ -10,12 +10,14 @@
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_3_SesionesYCookies" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:WebApp" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerT1_7_App_Eleccion_Delegado" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:PruebaFiltro" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo9_Dispatcher" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_4_Reenvio_peticion" serverId="Tomcat v10.0 Server at localhost (3)"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo11_Filtros" serverId="Tomcat v10.0 Server at localhost (3)"/>
   <module moduleId="org.eclipse.jst.jee.server:WebAppDinamic" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo10" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo6" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_6_Eventos_Filtros" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EjerciciosT1_2_Contexto" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejercicio_7_Recogida_de_datos" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ejemplo8_Cookies" serverId="Tomcat v10.0 Server at localhost"/>

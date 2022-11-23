@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Introduce" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="107dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonCasado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casado" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSoltero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soltero" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:contentDescription="@string/app_name" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFutbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Futbol" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tenis" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBaloncesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baloncesto" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>

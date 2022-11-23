@@ -41,7 +41,7 @@
     <filter-name>Ejercicio2Filtro</filter-name>
     <url-pattern>/Ejercicio2Filtro</url-pattern>
   </filter-mapping>
-    <servlet>
+  <servlet>
     <description></description>
     <display-name>Ejercicio2B</display-name>
     <servlet-name>Ejercicio2B</servlet-name>
@@ -51,7 +51,7 @@
     <servlet-name>Ejercicio2B</servlet-name>
     <url-pattern>/Ejercicio2B</url-pattern>
   </servlet-mapping>
-    <servlet>
+  <servlet>
     <description></description>
     <display-name>Ejercicio2C</display-name>
     <servlet-name>Ejercicio2C</servlet-name>
@@ -60,5 +60,55 @@
   <servlet-mapping>
     <servlet-name>Ejercicio2C</servlet-name>
     <url-pattern>/Ejercicio2C</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2A</display-name>
+    <servlet-name>Ejercicio2A</servlet-name>
+    <servlet-class>Ejercicio2.Ejercicio2A</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2A</servlet-name>
+    <url-pattern>/Ejercicio2A</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2_A</display-name>
+    <servlet-name>Ejercicio2_A</servlet-name>
+    <servlet-class>Ejercicio2.Ejercicio2_A</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2_A</servlet-name>
+    <url-pattern>/Ejercicio2_A</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2_B</display-name>
+    <servlet-name>Ejercicio2_B</servlet-name>
+    <servlet-class>Ejercicio2.Ejercicio2_B</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2_B</servlet-name>
+    <url-pattern>/Ejercicio2_B</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2_C</display-name>
+    <servlet-name>Ejercicio2_C</servlet-name>
+    <servlet-class>Ejercicio2.Ejercicio2_C</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2_C</servlet-name>
+    <url-pattern>/Ejercicio2_C</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2_Filtro</display-name>
+    <servlet-name>Ejercicio2_Filtro</servlet-name>
+    <servlet-class>Ejercicio2.Ejercicio2_Filtro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2_Filtro</servlet-name>
+    <url-pattern>/Ejercicio2_Filtro</url-pattern>
   </servlet-mapping>
 </web-app>

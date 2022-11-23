@@ -1,4 +1,4 @@
-
+package Ejercicio2;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebFilter;
@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -15,13 +16,13 @@ import java.util.Map.Entry;
  * Servlet implementation class Ejercicio2
  */
 
-public class Ejercicio2C extends HttpServlet {
+public class Ejercicio2_B extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Ejercicio2C() {
+    public Ejercicio2_B() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,17 +30,12 @@ public class Ejercicio2C extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		if(getServletContext().getAttribute("accesos")==null) {
-			response.getWriter().append("Primera visita");
-		}else {
-			HashMap<String, Integer> visitas=(HashMap<String, Integer>)getServletContext().getAttribute("accesos");
-			for (Map.Entry<String, Integer> entry : visitas.entrySet()) {
-	 
-	            System.out.println(entry.getKey() + " = "
-	                               + entry.getValue());
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter out=response.getWriter();
+		HashMap<String, Integer> visitas=(HashMap<String, Integer>)getServletContext().getAttribute("accesos");
+		for (Map.Entry<String, Integer> entry : visitas.entrySet()) {
+			out.println(entry.getKey() + " = " + entry.getValue());
 	        }
-		}
 	}
 
 	/**
@@ -51,3 +47,4 @@ public class Ejercicio2C extends HttpServlet {
 	}
 
 }
+

@@ -29,13 +29,13 @@ public class ServletPersona extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out =response.getWriter();
 		response.setContentType("text/html");
-		boolean temp=true;
-		request.setAttribute("deshabilitarFormulario", temp);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("RecogidaPersona.jsp");
 		dispatcher.include(request, response);
 		
 		if(!request.getParameter("dni").isBlank() || !request.getParameter("nombre").isBlank() || !request.getParameter("apellidos").isBlank() ) {
 			Persona persona= new Persona((String)request.getParameter("dni"),(String)request.getParameter("nombre"),(String)request.getParameter("apellidos"));
+			System.out.println("a");
+			request.setAttribute("deshabilitarFormulario", true);
 			out.println("<!DOCTYPE html> " +
 					"<html lang='en'> " +
 					"<head> " +
