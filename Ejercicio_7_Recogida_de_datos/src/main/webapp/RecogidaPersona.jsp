@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%=request.getAttribute("deshabilitarFormulario") %>
-	<%
-	if(request.getAttribute("deshabilitarFormulario")==null){%>
+	<% if(request.getAttribute("deshabilitarFormulario")==null){ %>
 		<fieldset>
 	<%
 		 }else{ %>

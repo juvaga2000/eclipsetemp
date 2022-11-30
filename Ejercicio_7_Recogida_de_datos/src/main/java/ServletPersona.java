@@ -30,11 +30,10 @@ public class ServletPersona extends HttpServlet {
 		PrintWriter out =response.getWriter();
 		response.setContentType("text/html");
 		RequestDispatcher dispatcher = request.getRequestDispatcher("RecogidaPersona.jsp");
-		dispatcher.include(request, response);
 		
-		if(!request.getParameter("dni").isBlank() || !request.getParameter("nombre").isBlank() || !request.getParameter("apellidos").isBlank() ) {
+		
+		if(!request.getParameter("dni").isBlank() && !request.getParameter("nombre").isBlank() && !request.getParameter("apellidos").isBlank() ) {
 			Persona persona= new Persona((String)request.getParameter("dni"),(String)request.getParameter("nombre"),(String)request.getParameter("apellidos"));
-			System.out.println("a");
 			request.setAttribute("deshabilitarFormulario", true);
 			out.println("<!DOCTYPE html> " +
 					"<html lang='en'> " +
@@ -69,6 +68,7 @@ public class ServletPersona extends HttpServlet {
 					"</body> " +
 					"</html> ");
 		}
+		dispatcher.include(request, response);
 	}
 
 	/**
